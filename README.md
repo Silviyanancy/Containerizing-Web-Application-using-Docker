@@ -10,9 +10,15 @@
 
 #### touch Dockerfile
 
-## Step 3: Build the Docker Image by navigative to the react app-> docker build -t react-docker-app .
+## Step 3: Build the Docker Image by navigative to the react app
 
-## Step 4: Run the Docker Container in detached mode -> docker run -d -p 3000:3000 react-docker-app
+docker build -t react-docker-app .
+
+## Step 4: Run the Docker Container in detached mode 
+
+docker run -d -p 3000:3000 react-docker-app
+
+## Changing name of the container
 
 docker run -d -p 3000:3000 --name nancy-docker-react react-docker-app
 
