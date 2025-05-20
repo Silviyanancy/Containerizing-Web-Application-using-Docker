@@ -18,7 +18,7 @@ docker build -t react-docker-app .
 
 docker run -d -p 3000:3000 react-docker-app
 
-## Changing name of the container
+## Step 5: Changing name of the container
 
 docker run -d -p 3000:3000 --name nancy-docker-react react-docker-app
 
