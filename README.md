@@ -1,4 +1,4 @@
-# Docker_WebApp
+# Containerizing Web Application using Docker
 
 ## Step 1: Creating a ReactApp
 
